@@ -1,0 +1,103 @@
+@font-face {
+    font-family: arial-rounded;
+    src: url(arial-rounded-mt-regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: arial-rounded;
+    background-color: #111B2C;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 300px;
+    height: 500px;
+    background-color: 14273E;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.5);
+}
+.layer1{
+    background-image: url(image-equilibrium.jpg);
+    width: 270px;
+    height: 270px;
+    border: 0;
+    border-radius: 12px;
+    background-size: cover;
+    margin: 15px 15px;
+}
+/* .img{
+    width: 270px;
+    height: 270px;
+    border: 0;
+    border-radius: 12px;
+    background-size: cover;
+} */
+.layer1:hover{
+    background-color: #30e7ff;
+    opacity: 60%;
+}
+.layer2{
+    color: white;
+    margin: 15px 15px;
+}
+.text{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: lighter;
+    color: rgb(196, 196, 196);
+}
+
+.down{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+}
+.right{
+    display: flex;
+}
+.t1{
+    margin-left: 5px;
+}
+.line{
+    width: 270px;
+    height: 1.2px;
+    background-color: rgb(196, 196, 196);
+    margin: 15px 15px;
+    margin-top: 20px;
+}
+.layer3{
+    display: flex;
+    align-items: center;
+    margin: 15px 15px;
+}
+.id{
+    background-image: url(image-avatar.png);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+.text1{
+    font-weight: lighter;
+    color: rgb(196, 196, 196);
+    margin-left: 15px;
+}
+.t2{
+    color: white;
+}
+.t2:hover{
+    font-size: 17px;
+}
+.t3:hover{
+    font-size: 20px;
+}
